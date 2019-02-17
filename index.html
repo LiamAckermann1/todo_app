@@ -1,11 +1,13 @@
 <html>
 <head>
 <link rel="stylesheet" href="index.css"> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
 </head>
 <body>
 <table>
     <tr>
-        <th> 
+        <th>
         PRIORITY
         </th>
         <th>
@@ -23,10 +25,10 @@
         </th>
     </tr>
     <tr>
-        <td>
+        <td class=priority>
             <input type="color">
         </td>
-        <td>
+        <td class=task>
             Finish College Application Essay
         </td>
         <td>
@@ -35,15 +37,15 @@
         <td>
             2/18/19
         </td>
-        <td>
-            <input type="checkbox">
+        <td class="completed">
+            <input type="checkbox" onclick="markdone()">
         </td>
     </tr>
     <tr>
-        <td>
+        <td class="priority">
             <input type="color">
         </td>
-        <td>
+        <td class=task>
             Walk Dog
         </td>
         <td>
@@ -52,15 +54,15 @@
         <td>
             2/17/19
         </td>
-        <td>
-            <input type="checkbox">
+        <td class="completed">
+            <input type="checkbox" onclick="markdone()">
         </td>
     </tr>
     <tr>
-        <td>
+        <td class="priority">
             <input type="color">
         </td>
-        <td>
+        <td class=task>
            Clean Dishes
         </td>
         <td>
@@ -69,25 +71,25 @@
         <td>
             2/17/19
         </td>
-        <td>
-            <input type="checkbox">
+        <td class="completed">
+            <input type="checkbox" onclick="markdone()">
         </td>
     </tr>
     <tr>
-        <td>
+        <td class="priority">
             <input type="color">
         </td>
-        <td>
+        <td class=task>
            Do Laundry
         </td>
         <td>
             15 minutes
         </td>
         <td>
-            20/19/19
+            2/19/19
         </td>
         <td>
-            <input type="checkbox">
+            <input type="checkbox" onclick="markdone()">
         </td>
     </tr>
 </table>
